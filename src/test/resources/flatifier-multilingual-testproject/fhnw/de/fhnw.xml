@@ -1,0 +1,519 @@
+<?xml version='1.0' encoding='utf-8'?>
+<company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" companyname="FHNW" id="fhnw" xmlns="https://smesec.eu"
+         xsi:schemaLocation="https://smesec.eu questionnaire.xsd">
+    <questionnaire id="fhnw" version="1" readableName="Excerpt from CYSFAM questionnaire">
+        <questions>
+            <question id="q1" type="yesno">
+                <text>Ein deutscher Text.</text>
+                <attachments/>
+                <options correct="q1o1">
+                    <option id="q1o1">
+                        <text>Ja</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q1o2">
+                        <text>Nein</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+                <metadata key="MHA_PRIORITY">
+                    <value>1</value>
+                </metadata>
+            </question>
+            <question id="q2" type="yesno">
+                <text>Is Patch management tool-supported (patch-management suites)?</text>
+                <attachments/>
+                <options correct="q2o1">
+                    <option id="q2o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q2o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+                <metadata key="MHA_PRIORITY">
+                    <value>1</value>
+                </metadata>
+            </question>
+            <question id="q3" type="yesno">
+                <text>Is a SIEM solution in place?</text>
+                <attachments/>
+                <options correct="q3o1">
+                    <option id="q3o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q3o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q4" type="yesno">
+                <text>Is a technical compliance checking solution in place?</text>
+                <attachments/>
+                <options correct="q4o1">
+                    <option id="q4o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q4o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q5" type="yesno">
+                <text>Is the baseline security configuration based on an open standard?</text>
+                <attachments/>
+                <options correct="q5o1">
+                    <option id="q5o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q5o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+                <metadata key="MHA_PRIORITY">
+                    <value>2</value>
+                </metadata>
+            </question>
+            <question id="q6" type="yesno">
+                <text>Is the deployment of patches tested and approved at least once before deployment in the production
+                    environment?
+                </text>
+                <attachments/>
+                <options correct="q6o1">
+                    <option id="q6o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q6o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q7" type="yesno">
+                <text>Is the SIEM implementation based on a baseline set of events?</text>
+                <attachments/>
+                <options correct="q7o1">
+                    <option id="q7o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q7o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q8" type="yesno">
+                <text>Is technical compliance checking performed manually (supported by appropriate tools)?</text>
+                <attachments/>
+                <options correct="q8o1">
+                    <option id="q8o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q8o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+                <metadata key="MHA_PRIORITY">
+                    <value>4</value>
+                </metadata>
+            </question>
+            <question id="q9" type="yesno">
+                <text>Does the organization have a policy on user authentication?</text>
+                <attachments/>
+                <options correct="q9o1">
+                    <option id="q9o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q9o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q10" type="yesno">
+                <text>Is there an enterprise-wide, standardized anti-malware protection solution?</text>
+                <attachments/>
+                <options correct="q10o1">
+                    <option id="q10o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q10o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q11" type="yesno">
+                <text>Is there an automated patch management solution in place?</text>
+                <attachments/>
+                <options correct="q11o1">
+                    <option id="q11o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q11o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q12" type="yesno">
+                <text>Are privileged end-users (admins) distinct from normal end-users?</text>
+                <attachments/>
+                <options correct="q12o1">
+                    <option id="q12o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q12o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q13" type="yesno">
+                <text>Are there automated tools to circumvent poor, human-originated decisions?</text>
+                <attachments/>
+                <options correct="q13o1">
+                    <option id="q13o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q13o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q14" type="yesno">
+                <text>Are there social engineering defenses in the information security policies?</text>
+                <attachments/>
+                <options correct="q14o1">
+                    <option id="q14o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q14o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q15" type="yesno">
+                <text>Does the organization embrace management practices to foster a productive work environment?</text>
+                <attachments/>
+                <options correct="q15o1">
+                    <option id="q15o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q15o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q16" type="yesno">
+                <text>Are there risk management assessments in the context of social engineering?</text>
+                <attachments/>
+                <options correct="q16o1">
+                    <option id="q16o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q16o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q17" type="yesno">
+                <text>Is there relevant security documentation for configuring network components?</text>
+                <attachments/>
+                <options correct="q17o1">
+                    <option id="q17o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q17o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q18" type="yesno">
+                <text>Are there automated processes to ensure that only ports, protocols and services with validated
+                    business needs are running on all systems?
+                </text>
+                <attachments/>
+                <options correct="q18o1">
+                    <option id="q18o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q18o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q19" type="yesno">
+                <text>Is the network designed as a three-tier architecture at minimum?</text>
+                <attachments/>
+                <options correct="q19o1">
+                    <option id="q19o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q19o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q20" type="yesno">
+                <text>Is version control implemented in the application change management process?</text>
+                <attachments/>
+                <options correct="q20o1">
+                    <option id="q20o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q20o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q21" type="yesno">
+                <text>Is the SDLC being followed on a manual, ad-hoc basis (at least)?</text>
+                <attachments/>
+                <options correct="q21o1">
+                    <option id="q21o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q21o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q22" type="yesno">
+                <text>Is a CIRT mandated by upper management?</text>
+                <attachments/>
+                <options correct="q22o1">
+                    <option id="q22o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q22o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q23" type="yesno">
+                <text>Is there a skillset description for positions in the CIRT?</text>
+                <attachments/>
+                <options correct="q23o1">
+                    <option id="q23o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q23o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q24" type="yesno">
+                <text>Is the CIRT able to get access to the complete IT resources list through a process which regulates
+                    this access?
+                </text>
+                <attachments/>
+                <options correct="q24o1">
+                    <option id="q24o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q24o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q25" type="yesno">
+                <text>Is there a policy describing the security incident prevention, detection and resolution processes?
+                </text>
+                <attachments/>
+                <options correct="q25o1">
+                    <option id="q25o1">
+                        <text>Yes</text>
+                        <attachments></attachments>
+                    </option>
+                    <option id="q25o2">
+                        <text>No</text>
+                        <attachments></attachments>
+                    </option>
+                </options>
+                <listeners/>
+            </question>
+            <question id="q26" type="A">
+                <text>What is 6 times 7?</text>
+                <options correct="q26o1">
+                    <option id="q26o1">
+                        <text>42</text>
+                    </option>
+                    <option id="q26o2" short="7">
+                        <text>777777</text>
+                        <attachments/>
+                    </option>
+                    <option id="q26o3" short="6">
+                        <text>6666666</text>
+                        <attachments/>
+                    </option>
+                </options>
+                <listeners>
+                    <listener event="onAnswered" libraries="bla" call="eu.smesec.evaluation.MyFunc"/>
+                </listeners>
+            </question>
+            <question id="q27" type="likert">
+                <text>
+                    <![CDATA[
+                Question 1 was an enjoyable reference to the Hitchhikers' Guide. <br />
+                1 = Strong Disagree, 5 = Strong Agree
+                ]]>
+                </text>
+                <attachments>
+
+                </attachments>
+                <listeners>
+                    <listener event="onAnswered" libraries="bla" call="eu.smesec.evaluation.MyFunc"/>
+                </listeners>
+            </question>
+            <question id="q28" type="date">
+                <text>
+                    Select the 1. of Mai 2018
+                </text>
+                <attachments/>
+                <listeners>
+                    <listener event="onAnswered" libraries="bla" call="eu.smesec.evaluation.MyFunc"/>
+                </listeners>
+            </question>
+            <question id="q29" type="Astar">
+                <text>Select all technologies that you use</text>
+                <attachments/>
+                <options correct="q29o2 q29o3">
+                    <option id="q29o1">
+                        <text>HTML</text>
+                        <attachments/>
+                    </option>
+                    <option id="q29o2" short="8">
+                        <text>Java</text>
+                        <attachments/>
+                    </option>
+                    <option id="q29o3" short="9">
+                        <text>C++</text>
+                        <attachments/>
+                    </option>
+                </options>
+                <listeners>
+                    <listener event="onAnswered" libraries="bla" call="eu.smesec.evaluation.MyFunc"/>
+                </listeners>
+            </question>
+        </questions>
+        <blocks>
+            <listeners>
+                <listener event="onResponseChange" libraries="eu.smesec.library.FirstLibrary"
+                          call="eu.smesec.library.FirstLibrary.onRespnseChange"/>
+            </listeners>
+            <block title="Server Protection Capability Maturity A" qid-list="q1 q2 q3 q4" position="1" id="b1">
+                <listeners/>
+                <instruction>
+                    <text>instructions for block: Server Protection Capability Maturity A</text>
+                    <attachments>
+                        <attachment id="q1a1" mime="image/jpeg">
+                            <content filename="image.jpg" xml:lang="de"></content>
+                        </attachment>
+                    </attachments>
+                </instruction>
+            </block>
+            <block title="Server Protection Capability Maturity B" qid-list="q5 q6 q7 q8" position="2" id="b2">
+                <listeners/>
+            </block>
+            <block title="End-user controls Maturity A" qid-list="q9 q10 q11 q12" position="3" id="b3">
+                <listeners/>
+                <instruction>
+                    <text>instructions for block: Server Protection Capability Maturity A</text>
+                    <attachments>
+                        <attachment id="q5a1" mime="video/mp4">
+                            <content filename="image.jpg" xml:lang="de">
+                            </content>
+                        </attachment>
+                    </attachments>
+                </instruction>
+            </block>
+            <block title="Social Engineering Maturity A" qid-list="q13 q14" position="4" id="b4">
+                <listeners/>
+            </block>
+            <block title="Social Engineering Maturity B" qid-list="q15 q16" position="5" id="b5">
+                <listeners/>
+            </block>
+            <block title="Network Security Maturity A" qid-list="q17 q18 q19" position="6" id="b6">
+                <listeners/>
+            </block>
+            <block title="Web Application Security Maturity A" qid-list="q20 q21" id="b7">
+                <listeners></listeners>
+            </block>
+            <block title="Cyber Security Incident Management A" qid-list="q22 q23 q23 q25" id="b8">
+                <listeners></listeners>
+            </block>
+            <block title="Sample Block 1" qid-list="q26 q27 q28 q29" position="1" id="b9">
+                <listeners>
+                    <listener event="onBeginBlock" libraries="bla" call="eu.smesec.evaluation.MyFunc"/>
+                    <listener event="onFinishBlock" libraries="bla" call="eu.smesec.evaluation.MyFunc"/>
+                </listeners>
+            </block>
+        </blocks>
+        <library id="eu.smesec.library.FirstLibrary"></library>
+    </questionnaire>
+</company>
