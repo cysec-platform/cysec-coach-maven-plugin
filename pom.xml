@@ -58,6 +58,19 @@
         </repository>
     </distributionManagement>
 
+    <repositories>
+        <repository><!-- necessary to download snapshot versions -->
+            <id>ossrh-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -91,12 +104,12 @@
         <dependency>
             <groupId>eu.smesec.cysec</groupId>
             <artifactId>lib-flatifier</artifactId>
-            <version>0.4.0</version>
+            <version>0.4.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>eu.smesec.cysec</groupId>
             <artifactId>lib-translation-tool</artifactId>
-            <version>0.1.0-SNAPSHOT</version>
+            <version>0.1.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
