@@ -21,7 +21,7 @@ package eu.smesec.cysec.maven.coachplugin;
 
 import eu.smesec.cysec.maven.coachplugin.translation.LanguageConfig;
 import eu.smesec.cysec.maven.coachplugin.translation.LanguageConfigHelper;
-import eu.smesec.library.translationtool.Merger;
+import eu.smesec.cysec.translationtool.Merger;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.LifecyclePhase;
