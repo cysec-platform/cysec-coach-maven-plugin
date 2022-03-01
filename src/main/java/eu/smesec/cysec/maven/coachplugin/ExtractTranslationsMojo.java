@@ -19,7 +19,7 @@
  */
 package eu.smesec.cysec.maven.coachplugin;
 
-import eu.smesec.library.translationtool.Extractor;
+import eu.smesec.cysec.translationtool.Extractor;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.LifecyclePhase;
