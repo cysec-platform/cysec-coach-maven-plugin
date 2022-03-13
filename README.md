@@ -8,7 +8,7 @@ Additionally, there are tools to support the development and build process of mu
 ### `flatify` goal
 Used to integrate coach resources (e.g. libraries and media files) as base64-encoded content and generate a flattened XML file.
 
-_Binds to the `prepare-package` phase by default._
+_Binds to the `package` phase by default._
 
 | Parameter            | Required  | Description  | Default value  |
 |----------------------|-----------|--------------|----------------|
