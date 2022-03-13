@@ -20,7 +20,7 @@
 package eu.smesec.cysec.maven.coachplugin;
 
 import eu.smesec.cysec.maven.coachplugin.translation.LanguageConfig;
-import eu.smesec.cysec.maven.coachplugin.translation.LanguageConfigHelper;
+import eu.smesec.cysec.maven.coachplugin.translation.LanguageConfigParser;
 import eu.smesec.cysec.translationtool.Merger;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
@@ -94,7 +94,7 @@ public class MergeTranslationsMojo extends AbstractMojo {
             throw new MojoExecutionException("Parameter 'languageConfigFile' is not defined");
         }
 
-        final List<LanguageConfig> languages = LanguageConfigHelper.parse(languageConfigFile.toPath());
+        final List<LanguageConfig> languages = LanguageConfigParser.parse(languageConfigFile.toPath());
         boolean allTranslationsFound = true;
         for (LanguageConfig language : languages) {
             if (language.isMerge()) {

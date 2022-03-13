@@ -30,16 +30,16 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Tests {@link LanguageConfigHelper}
+ * Tests {@link LanguageConfigParser}
  *
  * @author Matthias Luppi
  */
-public class LanguageConfigHelperTest {
+public class LanguageConfigParserTest {
 
     @Test
     public void testParse() {
         final Path configFile = Paths.get("src/test/resources/config-helper-test.xml");
-        final List<LanguageConfig> languages = LanguageConfigHelper.parse(configFile);
+        final List<LanguageConfig> languages = LanguageConfigParser.parse(configFile);
 
         assertEquals(2, languages.size());
         assertEquals("de", languages.get(0).getCode());

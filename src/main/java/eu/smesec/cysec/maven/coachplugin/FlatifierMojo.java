@@ -21,7 +21,7 @@ package eu.smesec.cysec.maven.coachplugin;
 
 import eu.smesec.cysec.flatifier.Flatifier;
 import eu.smesec.cysec.maven.coachplugin.translation.LanguageConfig;
-import eu.smesec.cysec.maven.coachplugin.translation.LanguageConfigHelper;
+import eu.smesec.cysec.maven.coachplugin.translation.LanguageConfigParser;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.LifecyclePhase;
@@ -93,7 +93,7 @@ public class FlatifierMojo extends AbstractMojo {
     }
 
     private void executeMultiLanguage() throws Exception {
-        final List<LanguageConfig> languages = LanguageConfigHelper.parse(languageConfigFile.toPath());
+        final List<LanguageConfig> languages = LanguageConfigParser.parse(languageConfigFile.toPath());
 
         final Path baseInputDir = inputDirectory.toPath();
         log.info("Using inputDirectory as base path for multilingual process: '{}'", inputDirectory);

@@ -37,9 +37,9 @@ import java.util.List;
  *
  * @author Matthias Luppi
  */
-public class LanguageConfigHelper {
+public class LanguageConfigParser {
 
-    private static final Logger log = LoggerFactory.getLogger(LanguageConfigHelper.class);
+    private static final Logger log = LoggerFactory.getLogger(LanguageConfigParser.class);
 
     /**
      * Parses a language configuration file
@@ -74,7 +74,7 @@ public class LanguageConfigHelper {
         }
     }
 
-    private LanguageConfigHelper() {
+    private LanguageConfigParser() {
     }
 
 }
