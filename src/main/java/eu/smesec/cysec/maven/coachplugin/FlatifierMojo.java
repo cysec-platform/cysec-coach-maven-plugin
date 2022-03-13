@@ -39,7 +39,7 @@ import java.util.List;
  *
  * @author Matthias Luppi
  */
-@Mojo(name = "flatify", defaultPhase = LifecyclePhase.PREPARE_PACKAGE)
+@Mojo(name = "flatify", defaultPhase = LifecyclePhase.PACKAGE)
 public class FlatifierMojo extends AbstractMojo {
 
     private static final Logger log = LoggerFactory.getLogger(FlatifierMojo.class);
