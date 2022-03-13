@@ -52,9 +52,9 @@ If a `languageConfigFile` is provided, the `inputDirectory` should point to the 
 The `outputFile` is used to define the output directory and base name of the coaches.
 The language codes will be appended to the base name followed by the extension (`coach.xml` -> `coach-de.xml`).
 
-The flatifier needs to contain a directory for each language which has `flatify="true"` configured in the language configuration file.
+The base directory needs to contain a subdirectory for each language which has `flatify="true"` configured in the language configuration file.
 By default, the files of the respective language are used by the flatifier. If no language-specific file exists (e.g. `image.jpg`),
-the file of the `original` folder structure is being used.
+the file of the `original` folder structure is being used as a fallback.
 
 The required folder structure looks like this:
 ```text
