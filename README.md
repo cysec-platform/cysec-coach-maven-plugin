@@ -1,5 +1,12 @@
 # CYSEC Coach Maven Plugin
 
+You might find documentations of other parts of the CySec project useful:
+
+- [CySec Platform](https://github.com/cysec-platform/cysec-platform/wiki)
+- [Coach Standard Language](https://github.com/cysec-platform/coach-standard-language/wiki)
+- [CySec Translation Tool](https://github.com/cysec-platform/cysec-translation-tool)
+- [CySec Flatifier](https://github.com/cysec-platform/cysec-flatifier)
+
 This Maven plugin can be used to integrate coach resources (e.g. libraries and media files) as base64-encoded content and generate a flattened XML file.
 Additionally, there are tools to support the development and build process of multilingual coaches.
 
